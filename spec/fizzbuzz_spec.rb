@@ -11,3 +11,9 @@ describe 'fizzbuzz5' do
     expect(fizzbuzz(5)).to eq "Buzz"
   end
 end
+
+describe 'fizzbuzz_both' do
+  it 'divides_by_both' do
+    expect(fizzbuzz(15)).to eq "FizzBuzz"
+  end
+end
